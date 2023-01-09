@@ -34,16 +34,15 @@ Output:
 
 <br>Explanation:</br>
 <br>depot 1 was engaged with 9 trips (4 departures, 5 arrivals).</br>
-
 <br>depot 2 was engaged with 14 trips (10 departures, 4 arrivals).</br>
 <br>depot 4 was engaged with 5 trips (5 arrivals).</br>
 <br>The depot with the most traffic is depot 2.</br>
 <br>Example 2:</br>
 <br>Input:</br>
 <br>trips table:</br>
-+-------------------+-----------------+---------------+
+
 | departure_depot | arrival_depot | trips_count |
-+-------------------+-----------------+---------------+
+| --- | --- |--- |
 | 1 | 2 | 4 |
 | 2 | 1 | 5 |
 | 3 | 4 | 5 |
