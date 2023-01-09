@@ -11,9 +11,11 @@ Table: trips
 (departure_depot, arrival_depot) is the primary key column for this table.
 <br> Each row of this table indicates that there were trips_count trips that departed from
 departure_depot and arrived at arrival_depot.</br>
-<br> Write an SQL query to report the ID of the depot with the most traffic. The depot with the most
+
+***Problem:*** Write an SQL query to report the ID of the depot with the most traffic. The depot with the most
 traffic is the depot that has the largest total number of trips that either departed from or arrived
-at the depot. If there is more than one depot with the most traffic, report them all.</br>
+at the depot. If there is more than one depot with the most traffic, report them all.
+
 <br>Return the result table in any order.</br>
 <br>The query result format is in the following example.</br>
 <br>Example 1:</br>
@@ -66,3 +68,12 @@ Output:
 <br>depot 5 was engaged with 7 trips (7 departures).</br>
 <br>depot 6 was engaged with 7 trips (7 arrivals).</br>
 <br>The depots with the most traffic are depots 1, 2, 3, and 4.</br>
+
+
+
+***Answer:***
+
+Please find this in action in fiddle: : https://dbfiddle.uk/zLnqU8aU
+
+![image](https://user-images.githubusercontent.com/23237905/211404480-72a4ab46-4cc8-4514-942e-38f5e5158029.png)
+
