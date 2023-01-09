@@ -1,11 +1,13 @@
 Table: trips
-+-------------------+------+
+
+
 | Column Name | Type |
-+-------------------+------+
+| --- | --- |
 | departure_depot | int |
 | arrival_depot | int |
 | trips_count | int |
-+-------------------+------+
+
+
 (departure_depot, arrival_depot) is the primary key column for this table.
 Each row of this table indicates that there were trips_count trips that departed from
 departure_depot and arrived at arrival_depot.
